@@ -1,0 +1,16 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property
+ */
+ 
+ .Avatar{
+	    -fx-graphic: url("https://icons-for-free.com/iconfiles/png/512/avatar+human+male+man+men+people+person+profile+user+users-1320196163635839021.png");	
+}
+
+.scroll-pane{
+	-fx-background-color: #f0f0f0; /* Promijenite boju pozadine */
+    -fx-border-color: #cccccc; /* Promijenite boju granice */
+    -fx-border-width: 1px; /* Promijenite debljinu granice */
+}
+
+.scroll-pane .viewport .conent .label {
+    -fx-wrap-text: true;
+}

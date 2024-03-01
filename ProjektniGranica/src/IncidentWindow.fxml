@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.pj2.controller.IncidentWindowController">
+   <children>
+      <ScrollPane layoutY="39.0" prefHeight="361.0" prefWidth="600.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="362.0" prefWidth="596.0">
+               <children>
+                  <TextArea fx:id="Incidents" prefHeight="361.0" prefWidth="600.0">
+                     <font>
+                        <Font name="Cambria" size="16.0" />
+                     </font></TextArea>
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+      <Label alignment="CENTER" layoutY="-11.0" prefHeight="51.0" prefWidth="617.0" style="-fx-background-color: #3d7dbd; -fx-padding: 5;" text="INCIDENTS WITH VEHICLES AND DOCUMENTATION" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

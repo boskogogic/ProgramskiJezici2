@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="463.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.pj2.controller.QueueWindowController">
+   <children>
+      <ScrollPane layoutY="41.0" prefHeight="422.0" prefWidth="610.0">
+         <content>
+            <TextArea fx:id="OtherVehicles" prefHeight="419.0" prefWidth="608.0">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font></TextArea>
+         </content>
+      </ScrollPane>
+      <Label alignment="CENTER" layoutY="-1.0" prefHeight="42.0" prefWidth="610.0" style="-fx-background-color: #3d7dbd; -fx-padding: 5;" text="OTHER VEHICLES IN QUEUE" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
